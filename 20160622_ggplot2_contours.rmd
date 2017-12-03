@@ -1,6 +1,9 @@
 ---
 title: "Plotting greyscale contoured data in R with ggplot2"
 author: "Philip Massie"
+date: 2016-06-22
+draft: true
+tags: [ "R", "ggplot2", "contours", "visualisation", "greyscale" ]
 output: 
   html_document: 
     keep_md: yes
