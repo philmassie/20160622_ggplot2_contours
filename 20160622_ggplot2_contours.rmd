@@ -156,7 +156,11 @@ Ggplot2 is even more awesome than anything you might have read, but it can be in
 
 I have tried to comment the coloured plot extensively.
 
+<<<<<<< HEAD
 ```{r coloured_plot, fig.width=8}
+=======
+```{r coloured_plot, fig.width=8, fig.align="center"}
+>>>>>>> 8e329665c5f98353bccc132327e2167ca598c39f
 # initiate the plot
 plot.eke.colour <- ggplot() +
     # include a layer with the eke data as coloured tile data
@@ -236,7 +240,11 @@ rm(bins, bin.width, arbitary.value, min, max, seq.lat, seq.lon, west.edge, east.
 
 Now, with our newly padded dataset, we can complete the greyscale plot. I've only commented the changed lines in this plot (vs. the colour plot above).
 
+<<<<<<< HEAD
 ```{r greyscale_plot, fig.width=8}
+=======
+```{r greyscale_plot, fig.width=8, fig.align="center"}
+>>>>>>> 8e329665c5f98353bccc132327e2167ca598c39f
 plot.eke.contour.grey <- ggplot() +
     # This line denotes the newly padded data, as a contour statistic.
     # ..level.. indicates that the fill aesthetic is calculated by the contour statistic.
