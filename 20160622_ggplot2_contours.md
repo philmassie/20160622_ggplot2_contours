@@ -281,7 +281,7 @@ plot.eke.contour.grey <- ggplot() +
 plot.eke.contour.grey
 ```
 
-![](20160622_ggplot2_contours_files/figure-html/greyscale_plot-1.png)<!-- -->
+<img src="20160622_ggplot2_contours_files/figure-html/greyscale_plot-1.png" style="display: block; margin: auto;" />
 
 There we go! The contours look great. There aren't too many of them, they don't have distracting borders, the 3000 m bathymetry contour looks nice and isn't overly distracting.
 
