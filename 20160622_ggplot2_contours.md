@@ -205,7 +205,7 @@ plot.eke.colour <- ggplot() +
 plot.eke.colour
 ```
 
-![](20160622_ggplot2_contours_files/figure-html/coloured_plot-1.png)<!-- -->
+<img src="20160622_ggplot2_contours_files/figure-html/coloured_plot-1.png" style="display: block; margin: auto;" />
 
 That looks pretty good. Unfortunately when we save the file, things don't always look the same as they do on the screen so there is generally some fine tuning involved. This version, as it stands, makes rather a good print. The colour palette is familiar to all my MATLAB/Python oceanographic colleagues too. 
 
@@ -281,7 +281,7 @@ plot.eke.contour.grey <- ggplot() +
 plot.eke.contour.grey
 ```
 
-![](20160622_ggplot2_contours_files/figure-html/greyscale_plot-1.png)<!-- -->
+<img src="20160622_ggplot2_contours_files/figure-html/greyscale_plot-1.png" style="display: block; margin: auto;" />
 
 There we go! The contours look great. There aren't too many of them, they don't have distracting borders, the 3000 m bathymetry contour looks nice and isn't overly distracting.
 

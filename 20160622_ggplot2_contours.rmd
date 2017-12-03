@@ -10,7 +10,9 @@ output:
     toc: yes
 ---
 ```{r global_options, include=FALSE}
-knitr::opts_chunk$set(echo=TRUE, warning=FALSE, message=FALSE)
+knitr::opts_chunk$set(echo=TRUE, warning=FALSE, message=FALSE, dev="png", 
+               dev.args=list(type="cairo"),
+               dpi=96)
 ```
 ### Introduction
 
@@ -154,7 +156,7 @@ Ggplot2 is even more awesome than anything you might have read, but it can be in
 
 I have tried to comment the coloured plot extensively.
 
-```{r coloured_plot}
+```{r coloured_plot, fig.width=8, fig.align="center"}
 # initiate the plot
 plot.eke.colour <- ggplot() +
     # include a layer with the eke data as coloured tile data
@@ -234,7 +236,7 @@ rm(bins, bin.width, arbitary.value, min, max, seq.lat, seq.lon, west.edge, east.
 
 Now, with our newly padded dataset, we can complete the greyscale plot. I've only commented the changed lines in this plot (vs. the colour plot above).
 
-```{r greyscale_plot}
+```{r greyscale_plot, fig.width=8, fig.align="center"}
 plot.eke.contour.grey <- ggplot() +
     # This line denotes the newly padded data, as a contour statistic.
     # ..level.. indicates that the fill aesthetic is calculated by the contour statistic.
